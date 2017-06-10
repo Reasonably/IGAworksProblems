@@ -1,5 +1,7 @@
 package prison;
-
+/*
+ * 원래는 전수조사를 하면 안되지만 인풋이 정해져 있으므로 전수조사를 한다.
+ */
 import java.util.ArrayList;
 
 public class Main {
@@ -104,7 +106,6 @@ public class Main {
 			calculateRecursively(count, col+1, 0);
 		}
 		if(count <= 0 || col >=MATRIX_SIZE || row >=MATRIX_SIZE) {
-			//makeMap();
 			if(count <=0) {
 				
 				
